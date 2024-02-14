@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Define a custom primary color
-    const customPrimaryColor = Color.fromARGB(255, 252, 232, 252);
+    const customPrimaryColor = Color.fromARGB(255, 255, 255, 255);
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -36,6 +36,8 @@ class MyApp extends StatelessWidget {
           800: customPrimaryColor,
           900: customPrimaryColor,
         }),
+        scaffoldBackgroundColor:
+            Colors.white, // Set scaffold background color to white
       ),
     );
   }
