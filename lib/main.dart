@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Define a custom primary color
-    const customPrimaryColor = Color(0xFFDFC7DF);
+    const customPrimaryColor = Color.fromARGB(255, 252, 232, 252);
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
